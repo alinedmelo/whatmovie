@@ -13,8 +13,8 @@ submitBtn.addEventListener("click", async () => {
 });
 
 async function getMovieSuggestions(input) {
-    const apiKey = "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"; // Substitua pelo seu próprio chave de API
-    const apiUrl = "https://api.openai.com/v1/engines/davinci-codex/completions";
+    const apiKey = "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"; // Substitua pelo seu próprio chave de API
+    const apiUrl = "https://api.openai.com/v1/chat/completions";
 
     const requestData = {
         prompt: input,
